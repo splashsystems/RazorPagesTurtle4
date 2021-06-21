@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesTurtle4", "RazorPagesTurtle4\RazorPagesTurtle4.csproj", "{6549E8F8-AA4A-446A-9DAB-EF5476F828EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6549E8F8-AA4A-446A-9DAB-EF5476F828EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6549E8F8-AA4A-446A-9DAB-EF5476F828EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6549E8F8-AA4A-446A-9DAB-EF5476F828EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6549E8F8-AA4A-446A-9DAB-EF5476F828EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {222A33E7-84EA-435E-9C8B-D90C858E1CAD}
+	EndGlobalSection
+EndGlobal
