@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RazorPagesTurtle4.Data;
 
 namespace RazorPagesTurtle4.Migrations
 {
     [DbContext(typeof(RazorPagesTurtle4Context))]
-    partial class RazorPagesTurtle4ContextModelSnapshot : ModelSnapshot
+    [Migration("20210622002526_Rating")]
+    partial class Rating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
